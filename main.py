@@ -40,8 +40,8 @@ registered_users = {
     "liz" : "pass123"
 }
 separator = "-"*40
-user_name = input("zadej meno:")
-password = input("zadej heslo:")
+user_name = input("Enter your username:")
+password = input("Enter your password:")
 
 if user_name in registered_users: 
 
